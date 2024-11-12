@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="scss/font-awesome.scss" />
+    <link rel="stylesheet" href="scss/bootstrap.scss" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="scss/styles.css" /> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Brad Traversy | Web Developer</title>
+  </head>
+  <body>
+    <!-- <h1>Portfolio Website</h1> -->
+    <header class="header vh-100 text-center position-relative">
+      <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+        <h5 class="text-uppercase my-text-color">Hello World</h5>
+        <h1 class="display-1 fw-bold text-white">I am MassMind</h1>
+        <p class="text-white text-uppercase">
+          Online Education | Tutor
+        </p>
+        <a href="#" class="btn btn-outline-light btn-lg">
+          <i class="fa-solid fa-chevron-down" style="margin-right: 5px;"></i>
+          More About Me
+        </a>
+        <div class="d-flex gap-2 mt-5 text-white">
+          <i class="fa-brands fa-twitter fa-3x"></i>
+          <i class="fa-brands fa-instagram fa-3x"></i>
+          <i class="fa-brands fa-linkedin fa-3x"></i>
+          <i class="fa-brands fa-square-facebook fa-3x"></i>
+          <i class="fa-brands fa-youtube fa-3x"></i>
+          <i class="fa-brands fa-github fa-3x"></i>
+        </div>
+      </div>
+    </header>
+    
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="text-uppercase fw-bold my-text-color">about me</h3>
+          <hr style="width: 25%; margin: auto;">
+          <h2 class="mt-3">Let me introduce myself</h2>
+        </div>
+    
+        <div class="d-flex gap-5 align-items-center h-100" style="width: 75%; margin: auto;">
+          <img src="./images/brad.jpg" alt="Myself" class="img-fluid rounded-circle" style="width: 200px">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Profile Section -->
+    
+    <section class="profile my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="fw-bold text-uppercase ">profile</h3>
+            <p>Here is some more information about myself to help you get to know me better</p>
+    
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-4">
+                <h5><i class="fa-solid fa-user" style="color: #9c0444;"></i> Full Name: </h5>
+                <p>MassMind</p>
+              </li>
+              <li class="list-group-item mb-4">
+                <h5><i class="fa-solid fa-cake-candles" style="color: #9c0444;"></i> Birth Date: </h5>
+                <p>Aug 10, 1981</p>
+              </li>
+              <li class="list-group-item mb-4">
+                <h5><i class="fa-solid fa-building" style="color: #9c0444;"></i> Current Position: </h5>
+                <p>Onwer at Media</p>
+              </li>
+              <li class="list-group-item mb-4">
+                <h5><i class="fa-solid fa-house" style="color: #9c0444;"></i> Website: </h5>
+                <p>MassMind</p>
+              </li>
+              <li class="list-group-item mb-4">
+                <h5><i class="fa-solid fa-envelope" style="color: #9c0444;"></i> Email: </h5>
+                <p>mass@gmail.com</p>
+              </li>
+    
+            </ul>
+    
+          </div>
+          <div class="col-md-6">
+            <h3 class="fw-bold text-uppercase ">Skills</h3>
+            <p>Here is some more skills about myself to help you get to know me better</p>
+    
+            <h5><i class="fa-solid fa-check"></i> HTML</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar"  role="progressbar" aria-label="Example with label" style="width: 55%;"
+                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> CSS</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> BOOTSTRAP</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;"
+                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> PYTHON</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 15%;"
+                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> REACT</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar " role="progressbar" aria-label="Example with label" style="width: 78%;"
+                aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> JAVA</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 99%;"
+                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">99%</div>
+            </div>
+    
+            <h5><i class="fa-solid fa-check"></i> NODE JS</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;"
+                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="row mt-3 text-center">
+          <div class="col-12">
+            <a href="#1" class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-2 my-2">hire me now</a>
+            <a href="#2" class="btn btn-dark btn-lg text-uppercase mx-2 my-2 px-5">Download CV</a>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- PORTFOLIO -->
+    
+    <section class="portfolio py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold my-text-color">Portfolio</h4>
+          <hr class="w-25 mx-auto" />
+          <h2>Check Out My Work</h2>
+          <p class="mt-4 lead">Here is the small sample of my projects</p>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <a href="images/project2.jpg">
+              <img src="images/project2.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="col-md-6 mb-3">
+            <a href="images/project3.jpg">
+              <img src="images/project3.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="col-md-6 mb-3">
+            <a href="images/project4.jpg">
+              <img src="images/project4.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="col-md-6 mb-3">
+            <a href="images/project5.jpg">
+              <img src="images/project5.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="col-md-6 mb-3">
+            <a href="images/project6.jpg">
+              <img src="images/project6.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+          <div class="col-md-6 mb-3">
+            <a href="images/project1.jpg">
+              <img src="images/project1.jpg" alt="Project 1" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- SERVICES SECTION -->
+    <section class="services py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold my-text-color">Services</h4>
+          <hr class="w-25 mx-auto" />
+          <h2>What Can I Do For You?</h2>
+          <p class="mt-4 lead">Here are the some services I can offer when it comes to the development business.</p>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-4 text-center mt-3">
+            <i class="fa-solid fa-globe fa-4x"></i>
+            <h2 class="mt-4">
+              Web Design
+            </h2>
+            <hr class="w-25 mx-auto" />
+            <p class="mt-4 lead">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+    
+          <div class="col-md-4 text-center mt-3">
+            <i class="fa-solid fa-code fa-4x"></i>
+            <h2 class="mt-4">
+              Web Development
+            </h2>
+            <hr class="w-25 mx-auto" />
+            <p class="mt-4 lead">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <div class="col-md-4 text-center mt-3">
+            <i class="fa-solid fa-cart-shopping fa-4x"></i>
+            <h2 class="mt-4">
+    
+              Advertising & SEO
+            </h2>
+            <hr class="w-25 mx-auto" />
+            <p class="mt-4 lead">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- Additional Section -->
+    <section class="additional py-5">
+      <div class="container ">
+        <div class="row bg-danger ">
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-users fa-3x"></i>
+              <h3 class="mt-3">500+</h3>
+              <h6 class="text-uppercase">Clients</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-diagram-project fa-3x"></i>
+              <h3 class="mt-3">700+</h3>
+              <h6 class="text-uppercase">projects</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-clock fa-3x"></i>
+              <h3 class="mt-3">16</h3>
+              <h6 class="text-uppercase">year</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-notdef fa-3x"></i>
+              <h3 class="mt-3">2.06M</h3>
+              <h6 class="text-uppercase">subscriber</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-book fa-3x"></i>
+              <h3 class="mt-3">25</h3>
+              <h6 class="text-uppercase">publications</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2 mt-3">
+            <div class="text-center border-end border-dark">
+              <i class="fa-solid fa-graduation-cap fa-3x"></i>
+              <h3 class="mt-3">1.M+</h3>
+              <h6 class="text-uppercase">students</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    
+    
+    <!-- CONTACT SECTION -->
+    
+    <section class="contact py-5">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h4 class="text-uppercase fw-bold my-text-color">Contact</h4>
+            <hr class="w-25 mx-auto" />
+            <h2>I'd love to hear from you!</h2>
+            <p class="mt-4 lead">Any queries! Please fill the form.</p>
+    
+            <form>
+              <input type="text" class="form-control mb-4 border-top-0 border-start-0 border-end-0 rounded-0" name="Name"
+                placeholder="Name">
+              <input type="text" class="form-control mb-4  border-top-0 border-start-0 border-end-0 rounded-0" name="Name"
+                placeholder="Email">
+              <textarea class="form-control mb-4  border-top-0 border-start-0 border-end-0 rounded-0" name="Name"
+                placeholder="Message"></textarea>
+              <div class="d-grid">
+                <button class="btn btn-primary my-text-color">Submit</button>
+              </div>
+            </form>
+    
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FOOTER -->
+    
+    <footer class="footer py-2">
+      <div class="container">
+        <div class="d-flex mt-3">
+          <p class="flex-grow-1">Copyright @ 2024 | Designed by MASSMIND</p>
+    
+          <a href="#12" class="text-dark mx-1">
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </a>
+          <a href="#12" class="text-dark mx-1">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="#12" class="text-dark mx-1">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+          <a href="#12" class="text-dark mx-1">
+            <i class="fa-brands fa-square-facebook fa-2x"></i>
+          </a>
+          <a href="#12" class="text-dark mx-1">
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script> -->
+  </body>
+</html>

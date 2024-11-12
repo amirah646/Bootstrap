@@ -1,0 +1,14 @@
+body {
+    font-style: 'Poppins', sans-serif;
+}
+
+button.btn.btn-dark.rounded-4.mt-5.mb-2 {
+    background-color: #f5be4b;
+    border: none;
+}
+
+@media (min-width: 800px){
+    .container{
+        width: 700px;
+    }
+}

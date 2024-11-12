@@ -1,0 +1,8 @@
+Bootstrap First Task:
+
+1-> create new project named 'bootstrap' in your local system using vs code.
+2-> create a folder named 'assets', and put css and js files from this github repo named 'Bootstrap'.
+3-> Install, 'open live server' extension in your project.
+4-> copy container.html file and paste in your project.
+5-> using right click, on the available options click, "open live server" option.(your file will be running in the browser)
+6-> Like the container.html, try all files from 1 to 28.
